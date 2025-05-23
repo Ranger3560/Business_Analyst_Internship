@@ -1,1 +1,1 @@
-
+Provides real-time insights into logistics, inventory, procurement, and supplier performance. It helps businesses optimize their supply chain operations by tracking key metrics, identifying bottlenecks, and improving efficiency.
