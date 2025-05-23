@@ -1,0 +1,27 @@
+COPY supply_chain_data (
+    product_type,
+    sku,
+    price,
+    availability,
+    number_of_products_sold,
+    revenue_generated,
+    customer_demographics,
+    stock_levels,
+    lead_times,
+    order_quantities,
+    shipping_times,
+    shipping_carriers,
+    shipping_costs,
+    supplier_name,
+    location,
+    supplier_lead_time,
+    production_volumes,
+    manufacturing_lead_time,
+    manufacturing_costs,
+    inspection_results,
+    defect_rates,
+    transportation_modes,
+    routes,
+    transportation_costs
+)
+FROM 'E:\Unified Mentor Final Project\Supply Chain\supply_chain_data.csv' DELIMITER ',' CSV HEADER;
